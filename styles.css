@@ -1,0 +1,100 @@
+body {
+  background: rgb(78, 95, 253);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+   'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Logo + Heading */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.logo {
+  height: 120px;   /* adjust to match heading size */
+  width: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  color: white;
+}
+
+/* Content */
+h2, h3, p {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.box {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+  border-radius: 8px;
+  color: black; /* readable against light box */
+}
+
+/* Footer */
+footer {
+  background: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a2e;
+  padding: 10px 20px;
+}
+
+.navbar .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .brand h1 {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
